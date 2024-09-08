@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>One Piece</title>
+</head>
+
+<body>
+    <header>
+        <h1>One Piece</h1>
+        <h2> <a href="https://www.netflix.com/br/title/80107103" target="_blank">"Bem vindos a tripulação do chapéu de palha!"</a>
+        </h2>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome do seu personagem favorito" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!--  <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=ey5s8-Rfk8Q" target="_blank">Monkey D. Luffy</a>
+            </h2>
+                <p class="descricao-meta"> É o protagonista carismático e determinado da série de mangá e anime One Piece. Com um sonho ambicioso de se tornar o Rei dos Piratas, Luffy navega pelos mares a bordo do Going Merry, e mais tarde do Thousand Sunny, junto com sua leal tripulação dos Piratas do Chapéu de Palha. Conhecido por sua personalidade alegre, teimosia e um apetite insaciável, Luffy possui a habilidade de esticar seu corpo à vontade graças ao consumo da Fruta Gomu Gomu no Mi, tornando-o um homem de borracha. Sua jornada é repleta de aventuras épicas, batalhas emocionantes e a busca incansável pelo tesouro lendário, o One Piece.</p>
+            <a href="https://onepiece.fandom.com/pt/wiki/Monkey_D._Luffy" target="_blank">Clique aqui e saiba mais</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=sZY-fQFrZ34" target="_blank">Nami</a>
+            </h2>
+                <p class="descricao-meta"> A navegadora habilidosa e ambiciosa dos Piratas do Chapéu de Palha, Nami é responsável por guiar o navio e criar os mapas. Com um amor por dinheiro e um coração bondoso, ela é a responsável por manter a tripulação unida.</p>
+            <a href="https://onepiece.fandom.com/pt/wiki/Nami" target="_blank">Clique aqui e saiba mais</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=ey5s8-Rfk8Q" target="_blank">Usopp</a>
+            </h2>
+                <p class="descricao-meta"> O atirador mentiroso dos Piratas do Chapéu de Palha, Usopp é conhecido por suas histórias exageradas e seu medo de fantasmas. Apesar de sua covardia inicial, ele demonstra uma coragem incrível quando se trata de proteger seus amigos.</p>
+            <a href="https://onepiece.fandom.com/pt/wiki/Usopp" target="_blank">Clique aqui e saiba mais</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=ey5s8-Rfk8Q" target="_blank">Sanji</a>
+            </h2>
+                <p class="descricao-meta"> O cozinheiro elegante e galanteador dos Piratas do Chapéu de Palha, Sanji possui um grande senso de justiça e nunca chuta uma mulher. Sua paixão pela culinária e seu amor por todas as coisas bonitas o tornam um membro querido da tripulação.</p>
+            <a href="https://onepiece.fandom.com/pt/wiki/Sanji" target="_blank">Clique aqui e saiba mais</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=ey5s8-Rfk8Q" target="_blank">Tony Tony Chopper</a>
+            </h2>
+                <p class="descricao-meta"> O médico rena dos Piratas do Chapéu de Palha, Chopper é um jovem inocente e curioso, com um coração puro. Apesar de sua aparência infantil, ele possui a habilidade de se transformar em diferentes formas, graças ao consumo de uma Fruta.</p>
+            <a href="https://onepiece.fandom.com/wiki/Tony_Tony_Chopper" target="_blank">Clique aqui e saiba mais</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=ey5s8-Rfk8Q" target="_blank">Brook</a>
+            </h2>
+                <p class="descricao-meta"> O músico esqueleto dos Piratas do Chapéu de Palha, Brook é um homem gentil e espirituoso, com um passado trágico. Sua habilidade de tocar piano e sua paixão pela música o tornam um companheiro alegre e divertido.</p>
+            <a href="https://onepiece.fandom.com/pt/wiki/Brook" target="_blank">Clique aqui e saiba mais</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=ey5s8-Rfk8Q" target="_blank">Nico Robin</a>
+            </h2>
+                <p class="descricao-meta"> A arqueóloga dos Piratas do Chapéu de Palha, Robin possui o poder de fazer florescer qualquer parte de seu corpo. Com um passado misterioso e uma inteligência excepcional, ela busca desvendar os segredos do mundo.</p>
+            <a href="https://onepiece.fandom.com/pt/wiki/Nico_Robin" target="_blank">Clique aqui e saiba mais</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=ey5s8-Rfk8Q" target="_blank">Franky</a>
+            </h2>
+                <p class="descricao-meta"> O ciborgue dos Piratas do Chapéu de Palha, Franky é um construtor naval talentoso e excêntrico. Com um coração de ouro e um amor por super robôs, ele é responsável por manter o Thousand Sunny em perfeitas condições.</p>
+            <a href="https://onepiece.fandom.com/pt/wiki/Franky" target="_blank">Clique aqui e saiba mais</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=ey5s8-Rfk8Q" target="_blank">Jinbe</a>
+            </h2>
+                <p class="descricao-meta"> O homem-peixe dos Piratas do Chapéu de Palha, Jinbe é um guerreiro experiente e um líder nato. Com sua força e sabedoria, ele oferece proteção e orientação para a tripulação.</p>
+            <a href="https://onepiece.fandom.com/pt/wiki/Jinbe" target="_blank">Clique aqui e saiba mais</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="https://www.youtube.com/watch?v=ey5s8-Rfk8Q" target="_blank">Roronoa Zoro</a>
+            </h2>
+                <p class="descricao-meta"> O espadachim de três espadas dos Piratas do Chapéu de Palha, Zoro é um homem sério e determinado, com um sonho de se tornar o maior espadachim do mundo. Sua rivalidade com Luffy e seu senso de justiça o tornam um membro indispensável da tripulação.</p>
+            <a href="https://onepiece.fandom.com/pt/wiki/Roronoa_Zoro" target="_blank">Clique aqui e saiba mais</a>
+            </div>-->
+        </section>
+    </main>
+    <footer>
+        <p>2024 - One Piece. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: onepiece@chapeusdepalha.com.br</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
